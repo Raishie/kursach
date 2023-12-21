@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2rism</title>
-    <!-- <link rel="stylesheet" href="./libs/easepick/easpick.min.css"> -->
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <link
@@ -64,55 +63,22 @@
             </div>
           </div>
 
-          <button class="mobile-nav-btn">
+          <button type="button" class="mobile-nav-btn">
             <div class="nav-icon"></div>
           </button>
         </nav>
 
         <div class="header__content">
           <h1 class="header__title">Discover the most engaging places</h1>
-          <button class="button button--huge modal-btn-open" id="form-open">
+          <button
+            type="button"
+            class="button button--huge modal-btn-open"
+            id="form-open"
+          >
             <img src="./img/icons/global.svg" alt="" />
             Contact us
           </button>
         </div>
-
-        <!-- <form action="" class="form">
-
-                    <div class="form__input-wrapper form__input--location">
-                        <label for="location" class="form__label">Location</label>
-                        <input autocomplete="off" type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
-                    </div>
-
-                    <div class="form__input-wrapper form__input--activity">
-                        <label for="activity" class="form__label">Activity</label>
-                        <select name="activity" id="activity" class="form__select">
-                            <option value="all">All Activities</option>
-                            <option value="Culture">Culture</option>
-                            <option value="Sport">Sport</option>
-                            <option value="Extreme">Extreme</option>
-                        </select>
-                    </div>
-
-                    <div class="form__input-wrapper form__input--date">
-                        <label for="date" class="form__label">When</label>
-                        <input type="text" class="form__input" id="date" placeholder="Choose a Date">
-                    </div>
-
-                    <div class="form__input-wrapper form__input--guests">
-                        <label for="location" class="form__label">Guests</label>
-                        <select name="" id="" class="form__select">
-                            <option value="">1 guest</option>
-                            <option value="">2 guest</option>
-                            <option value="">3 guest</option>
-                            <option value="">4 guests or more</option>
-                        </select>
-                    </div>
-
-                    <button class="button button--search">
-                        <img src="./img/icons/search.svg" alt="Search">
-                    </button>
-                </form> -->
       </div>
     </header>
 
@@ -388,7 +354,7 @@
 
       <!-- Activities -->
       <section class="section" id="activities">
-        <div class="container">
+        <div class="container-slider">
           <header class="section__header">
             <h2 class="title-1">Activities</h2>
             <a href="#!" class="button-more">
@@ -398,6 +364,7 @@
           </header>
           <div class="slider-wrapper">
             <button
+              type="button"
               id="prev-slide"
               class="slide-button material-symbols-rounded"
             >
@@ -420,6 +387,7 @@
               />
             </ul>
             <button
+              type="button"
               id="next-slide"
               class="slide-button material-symbols-rounded"
             >
@@ -431,47 +399,6 @@
               <div class="scrollbar-thumb"></div>
             </div>
           </div>
-          <!-- <div class="section__cards section__cards--4-in-row">
-            <article class="card">
-              <a href="#!" class="card__link"></a>
-              <img
-                class="card__img card__img--activities"
-                src="./img/activity/01.jpg"
-                alt="Img"
-              />
-              <h3 class="card__title">Sailing</h3>
-            </article>
-
-            <article class="card">
-              <a href="#!" class="card__link"></a>
-              <img
-                class="card__img card__img--activities"
-                src="./img/activity/02.jpg"
-                alt="Img"
-              />
-              <h3 class="card__title">Sailing</h3>
-            </article>
-
-            <article class="card">
-              <a href="#!" class="card__link"></a>
-              <img
-                class="card__img card__img--activities"
-                src="./img/activity/03.jpg"
-                alt="Img"
-              />
-              <h3 class="card__title">Sailing</h3>
-            </article>
-
-            <article class="card">
-              <a href="#!" class="card__link"></a>
-              <img
-                class="card__img card__img--activities"
-                src="./img/activity/04.jpg"
-                alt="Img"
-              />
-              <h3 class="card__title">Sailing</h3>
-            </article>
-          </div> -->
         </div>
       </section>
 
@@ -480,7 +407,7 @@
         <div class="container">
           <div class="about-us">
             <div class="about-us__desc">
-              <h3 class="about-us__title">About Us</h3>
+              <h2 class="about-us__title">About Us</h2>
               <p class="about-us__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse a sapien justo. Nulla facilisis tristique imperdiet.
@@ -604,7 +531,7 @@
               </div>
 
               <div class="subscribe__btn-wrapper">
-                <button class="button button--subscribe">
+                <button type="button" class="button button--subscribe">
                   <img src="./img/icons/arrow-right-form.svg" alt="" />
                 </button>
               </div>
@@ -648,35 +575,6 @@
         </form>
       </div>
     </div>
-
-    <!-- <div class="overlay">
-      <div class="home">
-        <div class="form_container">
-          <i class="uil uil-times form_close"></i>
-          
-          <div class="form login_form">
-            <form action="#">
-              <h2>Contact us</h2>
-              <div class="input_box">
-                <input type="text" placeholder="Enter your name" required />
-              </div>
-              <div class="input_box">
-                <input
-                  type="tel"
-                  placeholder="Enter your phone"
-                  pattern="^\+[0-9]{12}"
-                  required
-                />
-              </div>
-              <div class="input_box">
-                <input type="email" placeholder="Enter your email" required />
-              </div>
-              <button class="button">Contact</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <script src="./libs/autoComplete/autoComplete.min.js"></script>
     <script src="./libs/custom-select/custom-select.min.js"></script>

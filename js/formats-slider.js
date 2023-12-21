@@ -4,7 +4,7 @@ const initSlider = () => {
     ".slider-wrapper .slide-button"
   );
   const sliderScrollbar = document.querySelector(
-    ".container .slider-scrollbar"
+    ".container-slider .slider-scrollbar"
   );
 
   const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");

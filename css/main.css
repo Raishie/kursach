@@ -19,7 +19,7 @@ body {
 
 .header {
   padding: 31px 0 100px;
-  height: 800px;
+  height: 100vh;
   color: #fff;
   background-color: black;
   background-image: url("./../img/header/header-bg.jpg");
